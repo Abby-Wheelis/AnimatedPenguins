@@ -30,7 +30,6 @@ var setup = function(penguins)
     .append("g")
     .attr("id","xAxis")
     .attr("transform","translate("+margins.left+","+(margins.top+height)+")")
-    .text("Day")
     .call(xAxis)
     
     d3.select("svg")
