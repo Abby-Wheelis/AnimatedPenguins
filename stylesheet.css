@@ -6,5 +6,9 @@ font-size: 16px;
 button *
 {
  height: 75px;
-  width: 75px;
+}
+
+#buttonHome
+{
+ width: 500px;
 }
