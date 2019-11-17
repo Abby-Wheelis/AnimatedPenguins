@@ -1,7 +1,7 @@
 var PenguinPromise = d3.json("penguins/classData.json")
 
 var screen = {width: 800, height: 500}
-var margins = {top: 15, bottom: 15, left: 50, right: 15}
+var margins = {top: 15, bottom: 25, left: 50, right: 15}
 
 var setup = function(penguins)
 {
