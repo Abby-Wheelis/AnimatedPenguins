@@ -43,6 +43,7 @@ var setup = function(penguins)
     .data(penguins[0].quizes)
     .enter()
     .append("circle")
+    .attr("fill", "#A15E49")
     
     makeButtons(penguins,xScale, yScale)
     
