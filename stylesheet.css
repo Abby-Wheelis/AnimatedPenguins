@@ -1,7 +1,6 @@
 #xAxis text, #yAxis text
 {
 font-size: 16px;
- color: #2F1B25;
 }
 
 button *
@@ -20,16 +19,12 @@ body
  width: 800px;
  margin-left:auto;
  margin-right: auto;
- background-color: #E3D26F;
+ background-color: #FFE19C;
+ color: #050609;
 }
 
 h1,h3
 {
  text-align: center;
- color: #4E3822;
 }
 
-button
-{
- color: #CA895F;
-}
