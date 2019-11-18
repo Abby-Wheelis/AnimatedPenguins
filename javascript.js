@@ -63,6 +63,7 @@ var drawScatterplot = function(penguins, xScale, yScale, index)
     //.enter()
     //.append("circle")
     .transition()
+    .on("mouseover", alert("mouse")
     .attr("fill", "blue")
     .attr("cx", function(quiz)
     {
@@ -72,8 +73,7 @@ var drawScatterplot = function(penguins, xScale, yScale, index)
     {
         return yScale(quiz.grade);
     })
-    .attr("r", 3)
-    .on("mouseover", alert("mouse");
+    .attr("r", 3);
 }
 
 var makeButtons = function(penguins, xScale, yScale)
