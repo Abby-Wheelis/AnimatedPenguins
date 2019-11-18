@@ -72,8 +72,8 @@ var drawScatterplot = function(penguins, xScale, yScale, index)
     {
         return yScale(quiz.grade);
     })
-    .attr("r", 3);
-    .on("mouseover", alert("mouse")
+    .attr("r", 3)
+    .on("mouseover", alert("mouse");
 }
 
 var makeButtons = function(penguins, xScale, yScale)
