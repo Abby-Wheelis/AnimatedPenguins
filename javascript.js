@@ -43,7 +43,7 @@ var setup = function(penguins)
     .data(penguins[0].quizes)
     .enter()
     .append("circle")
-    .on("mouseover", alert("mouse!"))
+    //.on("mouseover", alert("mouse!")) just does it when the page loads
     
     makeButtons(penguins,xScale, yScale)
     
@@ -73,6 +73,7 @@ var drawScatterplot = function(penguins, xScale, yScale, index)
         return yScale(quiz.grade);
     })
     .attr("r", 3);
+    .on("mouseover", alert("mouse")
 }
 
 var makeButtons = function(penguins, xScale, yScale)
